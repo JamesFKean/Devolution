@@ -1,0 +1,111 @@
+,Region name,variable,value
+0,United Kingdom,1999,2.6
+1,England,1999,3.4
+2,Wales,1999,2.5
+3,Scotland,1999,2.1
+4,Northern Ireland,1999,4.2
+5,United Kingdom,2000,3.7
+6,England,2000,4.1
+7,Wales,2000,3.6
+8,Scotland,2000,3.4
+9,Northern Ireland,2000,5.8
+10,United Kingdom,2001,1.8
+11,England,2001,1.4
+12,Wales,2001,1.9
+13,Scotland,2001,2.8
+14,Northern Ireland,2001,1.5
+15,United Kingdom,2002,1.3
+16,England,2002,1.2
+17,Wales,2002,1.0
+18,Scotland,2002,1.3
+19,Northern Ireland,2002,0.2
+20,United Kingdom,2003,2.7
+21,England,2003,2.7
+22,Wales,2003,3.1
+23,Scotland,2003,2.9
+24,Northern Ireland,2003,3.8
+25,United Kingdom,2004,1.8
+26,England,2004,1.8
+27,Wales,2004,2.0
+28,Scotland,2004,2.7
+29,Northern Ireland,2004,1.5
+30,United Kingdom,2005,1.9
+31,England,2005,2.1
+32,Wales,2005,0.9
+33,Scotland,2005,3.2
+34,Northern Ireland,2005,2.8
+35,United Kingdom,2006,1.5
+36,England,2006,1.9
+37,Wales,2006,2.6
+38,Scotland,2006,2.5
+39,Northern Ireland,2006,1.8
+40,United Kingdom,2007,1.7
+41,England,2007,2.2
+42,Wales,2007,0.2
+43,Scotland,2007,1.5
+44,Northern Ireland,2007,-1.0
+45,United Kingdom,2008,-1.0
+46,England,2008,-1.1
+47,Wales,2008,-3.6
+48,Scotland,2008,0.5
+49,Northern Ireland,2008,-3.8
+50,United Kingdom,2009,-5.2
+51,England,2009,-5.9
+52,Wales,2009,-4.3
+53,Scotland,2009,-4.7
+54,Northern Ireland,2009,-5.8
+55,United Kingdom,2010,1.6
+56,England,2010,3.3
+57,Wales,2010,3.0
+58,Scotland,2010,1.6
+59,Northern Ireland,2010,0.1
+60,United Kingdom,2011,0.2
+61,England,2011,1.6
+62,Wales,2011,3.2
+63,Scotland,2011,1.6
+64,Northern Ireland,2011,2.3
+65,United Kingdom,2012,0.8
+66,England,2012,1.3
+67,Wales,2012,1.0
+68,Scotland,2012,1.0
+69,Northern Ireland,2012,1.3
+70,United Kingdom,2013,1.2
+71,England,2013,1.4
+72,Wales,2013,1.5
+73,Scotland,2013,2.2
+74,Northern Ireland,2013,0.5
+75,United Kingdom,2014,2.4
+76,England,2014,2.6
+77,Wales,2014,1.4
+78,Scotland,2014,2.7
+79,Northern Ireland,2014,1.5
+80,United Kingdom,2015,1.6
+81,England,2015,1.3
+82,Wales,2015,2.2
+83,Scotland,2015,0.6
+84,Northern Ireland,2015,0.7
+85,United Kingdom,2016,1.3
+86,England,2016,1.5
+87,Wales,2016,2.2
+88,Scotland,2016,-0.3
+89,Northern Ireland,2016,3.3
+90,United Kingdom,2017,1.8
+91,England,2017,1.8
+92,Wales,2017,1.5
+93,Scotland,2017,2.3
+94,Northern Ireland,2017,1.3
+95,United Kingdom,2018,1.1
+96,England,2018,1.0
+97,Wales,2018,2.2
+98,Scotland,2018,0.1
+99,Northern Ireland,2018,0.1
+100,United Kingdom,2019,1.1
+101,England,2019,1.0
+102,Wales,2019,1.6
+103,Scotland,2019,0.7
+104,Northern Ireland,2019,2.0
+105,United Kingdom,2020,-11.4
+106,England,2020,-11.9
+107,Wales,2020,-11.9
+108,Scotland,2020,-11.8
+109,Northern Ireland,2020,-11.3
