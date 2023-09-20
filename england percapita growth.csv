@@ -1,0 +1,375 @@
+,Region name,variable,value
+1,England,1999,3.4
+2,North East,1999,2.9
+3,North West,1999,4.4
+4,Yorkshire and The Humber,1999,3.4
+5,East Midlands,1999,2.5
+6,West Midlands,1999,3.5
+7,East,1999,3.2
+8,London,1999,2.8
+9,South East,1999,3.5
+10,South West,1999,3.1
+11,Dorset and Somerset,1999,4.0
+12,Cornwall and Isles of Scilly,1999,1.1
+13,Devon,1999,3.2
+14,Greater Manchester,1999,4.6
+15,Birmingham,1999,2.7
+16,"Bristol, City of",1999,1.6
+17,Leeds,1999,6.5
+19,England,2000,4.1
+20,North East,2000,3.0
+21,North West,2000,2.1
+22,Yorkshire and The Humber,2000,3.0
+23,East Midlands,2000,2.5
+24,West Midlands,2000,2.6
+25,East,2000,4.6
+26,London,2000,6.6
+27,South East,2000,4.2
+28,South West,2000,2.5
+29,Dorset and Somerset,2000,2.2
+30,Cornwall and Isles of Scilly,2000,2.7
+31,Devon,2000,0.2
+32,Greater Manchester,2000,2.1
+33,Birmingham,2000,3.1
+34,"Bristol, City of",2000,3.8
+35,Leeds,2000,3.9
+37,England,2001,1.4
+38,North East,2001,4.2
+39,North West,2001,3.3
+40,Yorkshire and The Humber,2001,2.6
+41,East Midlands,2001,1.7
+42,West Midlands,2001,1.9
+43,East,2001,2.0
+44,London,2001,-0.7
+45,South East,2001,0.6
+46,South West,2001,2.2
+47,Dorset and Somerset,2001,-1.4
+48,Cornwall and Isles of Scilly,2001,1.6
+49,Devon,2001,1.7
+50,Greater Manchester,2001,2.6
+51,Birmingham,2001,3.3
+52,"Bristol, City of",2001,4.9
+53,Leeds,2001,2.3
+55,England,2002,1.2
+56,North East,2002,4.0
+57,North West,2002,2.2
+58,Yorkshire and The Humber,2002,2.5
+59,East Midlands,2002,0.4
+60,West Midlands,2002,0.2
+61,East,2002,0.6
+62,London,2002,0.5
+63,South East,2002,1.6
+64,South West,2002,0.7
+65,Dorset and Somerset,2002,-0.5
+66,Cornwall and Isles of Scilly,2002,3.4
+67,Devon,2002,1.2
+68,Greater Manchester,2002,1.9
+69,Birmingham,2002,0.5
+70,"Bristol, City of",2002,0.6
+71,Leeds,2002,2.5
+73,England,2003,2.7
+74,North East,2003,3.6
+75,North West,2003,2.8
+76,Yorkshire and The Humber,2003,3.7
+77,East Midlands,2003,2.3
+78,West Midlands,2003,2.0
+79,East,2003,3.1
+80,London,2003,3.7
+81,South East,2003,1.6
+82,South West,2003,1.6
+83,Dorset and Somerset,2003,1.0
+84,Cornwall and Isles of Scilly,2003,3.5
+85,Devon,2003,1.8
+86,Greater Manchester,2003,1.7
+87,Birmingham,2003,2.3
+88,"Bristol, City of",2003,0.9
+89,Leeds,2003,5.9
+91,England,2004,1.8
+92,North East,2004,5.1
+93,North West,2004,2.8
+94,Yorkshire and The Humber,2004,2.1
+95,East Midlands,2004,1.6
+96,West Midlands,2004,1.5
+97,East,2004,0.7
+98,London,2004,2.5
+99,South East,2004,0.5
+100,South West,2004,1.7
+101,Dorset and Somerset,2004,1.3
+102,Cornwall and Isles of Scilly,2004,0.2
+103,Devon,2004,4.8
+104,Greater Manchester,2004,2.5
+105,Birmingham,2004,2.4
+106,"Bristol, City of",2004,1.7
+107,Leeds,2004,2.7
+109,England,2005,2.1
+110,North East,2005,0.9
+111,North West,2005,1.9
+112,Yorkshire and The Humber,2005,0.6
+113,East Midlands,2005,1.2
+114,West Midlands,2005,0.5
+115,East,2005,2.6
+116,London,2005,4.1
+117,South East,2005,2.0
+118,South West,2005,0.8
+119,Dorset and Somerset,2005,1.8
+120,Cornwall and Isles of Scilly,2005,3.2
+121,Devon,2005,0.1
+122,Greater Manchester,2005,2.7
+123,Birmingham,2005,0.9
+124,"Bristol, City of",2005,-2.7
+125,Leeds,2005,2.5
+127,England,2006,1.9
+128,North East,2006,2.3
+129,North West,2006,2.5
+130,Yorkshire and The Humber,2006,1.5
+131,East Midlands,2006,2.6
+132,West Midlands,2006,1.0
+133,East,2006,1.5
+134,London,2006,2.5
+135,South East,2006,1.3
+136,South West,2006,0.7
+137,Dorset and Somerset,2006,0.9
+138,Cornwall and Isles of Scilly,2006,2.7
+139,Devon,2006,2.3
+140,Greater Manchester,2006,1.8
+141,Birmingham,2006,-1.0
+142,"Bristol, City of",2006,0.7
+143,Leeds,2006,1.3
+145,England,2007,2.2
+146,North East,2007,-0.4
+147,North West,2007,1.2
+148,Yorkshire and The Humber,2007,2.2
+149,East Midlands,2007,-0.1
+150,West Midlands,2007,-0.2
+151,East,2007,0.8
+152,London,2007,5.9
+153,South East,2007,1.5
+154,South West,2007,0.7
+155,Dorset and Somerset,2007,-1.9
+156,Cornwall and Isles of Scilly,2007,-2.7
+157,Devon,2007,-2.7
+158,Greater Manchester,2007,2.8
+159,Birmingham,2007,2.4
+160,"Bristol, City of",2007,4.3
+161,Leeds,2007,6.1
+163,England,2008,-1.1
+164,North East,2008,-1.8
+165,North West,2008,-1.8
+166,Yorkshire and The Humber,2008,-3.5
+167,East Midlands,2008,-1.4
+168,West Midlands,2008,-1.3
+169,East,2008,-0.9
+170,London,2008,-1.3
+171,South East,2008,0.3
+172,South West,2008,-0.7
+173,Dorset and Somerset,2008,-0.6
+174,Cornwall and Isles of Scilly,2008,-0.6
+175,Devon,2008,-1.8
+176,Greater Manchester,2008,-2.3
+177,Birmingham,2008,-2.9
+178,"Bristol, City of",2008,-0.3
+179,Leeds,2008,-4.1
+181,England,2009,-5.9
+182,North East,2009,-4.6
+183,North West,2009,-4.5
+184,Yorkshire and The Humber,2009,-5.6
+185,East Midlands,2009,-6.3
+186,West Midlands,2009,-6.8
+187,East,2009,-6.1
+188,London,2009,-7.9
+189,South East,2009,-4.8
+190,South West,2009,-4.8
+191,Dorset and Somerset,2009,-4.7
+192,Cornwall and Isles of Scilly,2009,-5.7
+193,Devon,2009,-4.0
+194,Greater Manchester,2009,-3.4
+195,Birmingham,2009,-6.3
+196,"Bristol, City of",2009,-3.1
+197,Leeds,2009,-5.7
+199,England,2010,3.3
+200,North East,2010,2.9
+201,North West,2010,3.2
+202,Yorkshire and The Humber,2010,1.0
+203,East Midlands,2010,4.0
+204,West Midlands,2010,3.8
+205,East,2010,2.6
+206,London,2010,2.5
+207,South East,2010,4.7
+208,South West,2010,4.2
+209,Dorset and Somerset,2010,1.5
+210,Cornwall and Isles of Scilly,2010,2.9
+211,Devon,2010,5.4
+212,Greater Manchester,2010,2.4
+213,Birmingham,2010,1.7
+214,"Bristol, City of",2010,2.5
+215,Leeds,2010,2.1
+217,England,2011,1.6
+218,North East,2011,2.0
+219,North West,2011,0.1
+220,Yorkshire and The Humber,2011,1.6
+221,East Midlands,2011,1.5
+222,West Midlands,2011,2.8
+223,East,2011,0.3
+224,London,2011,2.3
+225,South East,2011,1.7
+226,South West,2011,0.8
+227,Dorset and Somerset,2011,0.8
+228,Cornwall and Isles of Scilly,2011,2.9
+229,Devon,2011,1.0
+230,Greater Manchester,2011,-0.4
+231,Birmingham,2011,0.2
+232,"Bristol, City of",2011,-1.1
+233,Leeds,2011,1.8
+235,England,2012,1.3
+236,North East,2012,1.9
+237,North West,2012,1.2
+238,Yorkshire and The Humber,2012,0.9
+239,East Midlands,2012,0.6
+240,West Midlands,2012,0.6
+241,East,2012,0.6
+242,London,2012,1.8
+243,South East,2012,1.5
+244,South West,2012,0.4
+245,Dorset and Somerset,2012,-0.9
+246,Cornwall and Isles of Scilly,2012,0.6
+247,Devon,2012,0.3
+248,Greater Manchester,2012,2.6
+249,Birmingham,2012,0.3
+250,"Bristol, City of",2012,1.9
+251,Leeds,2012,1.2
+253,England,2013,1.4
+254,North East,2013,-0.7
+255,North West,2013,1.5
+256,Yorkshire and The Humber,2013,0.8
+257,East Midlands,2013,1.9
+258,West Midlands,2013,1.9
+259,East,2013,1.6
+260,London,2013,1.8
+261,South East,2013,1.0
+262,South West,2013,0.2
+263,Dorset and Somerset,2013,0.4
+264,Cornwall and Isles of Scilly,2013,1.6
+265,Devon,2013,1.7
+266,Greater Manchester,2013,2.5
+267,Birmingham,2013,1.5
+268,"Bristol, City of",2013,-1.0
+269,Leeds,2013,0.3
+271,England,2014,2.6
+272,North East,2014,1.9
+273,North West,2014,2.6
+274,Yorkshire and The Humber,2014,1.7
+275,East Midlands,2014,1.4
+276,West Midlands,2014,2.8
+277,East,2014,3.2
+278,London,2014,3.0
+279,South East,2014,2.0
+280,South West,2014,2.9
+281,Dorset and Somerset,2014,3.1
+282,Cornwall and Isles of Scilly,2014,1.5
+283,Devon,2014,1.3
+284,Greater Manchester,2014,1.4
+285,Birmingham,2014,1.8
+286,"Bristol, City of",2014,1.4
+287,Leeds,2014,0.9
+289,England,2015,1.3
+290,North East,2015,3.1
+291,North West,2015,2.2
+292,Yorkshire and The Humber,2015,2.9
+293,East Midlands,2015,0.5
+294,West Midlands,2015,2.0
+295,East,2015,1.0
+296,London,2015,0.2
+297,South East,2015,1.8
+298,South West,2015,-0.4
+299,Dorset and Somerset,2015,-1.2
+300,Cornwall and Isles of Scilly,2015,-1.6
+301,Devon,2015,1.0
+302,Greater Manchester,2015,2.7
+303,Birmingham,2015,1.4
+304,"Bristol, City of",2015,0.4
+305,Leeds,2015,2.5
+307,England,2016,1.5
+308,North East,2016,-0.5
+309,North West,2016,1.4
+310,Yorkshire and The Humber,2016,0.9
+311,East Midlands,2016,0.8
+312,West Midlands,2016,1.8
+313,East,2016,1.5
+314,London,2016,3.1
+315,South East,2016,-0.1
+316,South West,2016,0.9
+317,Dorset and Somerset,2016,0.9
+318,Cornwall and Isles of Scilly,2016,3.2
+319,Devon,2016,0.6
+320,Greater Manchester,2016,1.6
+321,Birmingham,2016,1.7
+322,"Bristol, City of",2016,3.8
+323,Leeds,2016,-0.3
+325,England,2017,1.8
+326,North East,2017,1.6
+327,North West,2017,2.3
+328,Yorkshire and The Humber,2017,2.1
+329,East Midlands,2017,0.4
+330,West Midlands,2017,2.0
+331,East,2017,4.1
+332,London,2017,1.1
+333,South East,2017,1.4
+334,South West,2017,2.7
+335,Dorset and Somerset,2017,4.1
+336,Cornwall and Isles of Scilly,2017,3.9
+337,Devon,2017,2.5
+338,Greater Manchester,2017,3.7
+339,Birmingham,2017,0.2
+340,"Bristol, City of",2017,3.8
+341,Leeds,2017,1.3
+343,England,2018,1.0
+344,North East,2018,1.0
+345,North West,2018,0.7
+346,Yorkshire and The Humber,2018,1.3
+347,East Midlands,2018,1.8
+348,West Midlands,2018,1.1
+349,East,2018,-0.2
+350,London,2018,1.3
+351,South East,2018,1.3
+352,South West,2018,0.0
+353,Dorset and Somerset,2018,0.0
+354,Cornwall and Isles of Scilly,2018,0.0
+355,Devon,2018,-0.7
+356,Greater Manchester,2018,2.6
+357,Birmingham,2018,2.4
+358,"Bristol, City of",2018,-3.9
+359,Leeds,2018,4.7
+361,England,2019,1.0
+362,North East,2019,1.6
+363,North West,2019,1.4
+364,Yorkshire and The Humber,2019,0.8
+365,East Midlands,2019,0.2
+366,West Midlands,2019,-1.1
+367,East,2019,1.2
+368,London,2019,0.7
+369,South East,2019,2.3
+370,South West,2019,1.5
+371,Dorset and Somerset,2019,0.9
+372,Cornwall and Isles of Scilly,2019,0.9
+373,Devon,2019,1.4
+374,Greater Manchester,2019,1.1
+375,Birmingham,2019,-0.6
+376,"Bristol, City of",2019,2.5
+377,Leeds,2019,0.5
+379,England,2020,-11.9
+380,North East,2020,-13.6
+381,North West,2020,-12.3
+382,Yorkshire and The Humber,2020,-12.0
+383,East Midlands,2020,-11.2
+384,West Midlands,2020,-11.6
+385,East,2020,-13.1
+386,London,2020,-11.6
+387,South East,2020,-11.3
+388,South West,2020,-12.3
+389,Dorset and Somerset,2020,-11.6
+390,Cornwall and Isles of Scilly,2020,-15.3
+391,Devon,2020,-15.8
+392,Greater Manchester,2020,-11.7
+393,Birmingham,2020,-12.5
+394,"Bristol, City of",2020,-12.8
+395,Leeds,2020,-12.7
