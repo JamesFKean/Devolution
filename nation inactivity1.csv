@@ -1,0 +1,371 @@
+,date,Region,val
+0,2004-12,United Kingdom,23.9
+8,2004-12,England,23.5
+12,2004-12,Wales,27.3
+16,2004-12,Scotland,23.3
+20,2004-12,Northern Ireland,30.3
+28,2005-03,United Kingdom,23.8
+36,2005-03,England,23.5
+40,2005-03,Wales,27.1
+44,2005-03,Scotland,23.2
+48,2005-03,Northern Ireland,30.8
+56,2005-06,United Kingdom,23.8
+64,2005-06,England,23.4
+68,2005-06,Wales,27.2
+72,2005-06,Scotland,23.3
+76,2005-06,Northern Ireland,30.7
+84,2005-09,United Kingdom,23.7
+92,2005-09,England,23.4
+96,2005-09,Wales,27.0
+100,2005-09,Scotland,23.0
+104,2005-09,Northern Ireland,29.8
+112,2005-12,United Kingdom,23.7
+120,2005-12,England,23.4
+124,2005-12,Wales,27.0
+128,2005-12,Scotland,22.9
+132,2005-12,Northern Ireland,29.8
+140,2006-03,United Kingdom,23.7
+148,2006-03,England,23.4
+152,2006-03,Wales,27.2
+156,2006-03,Scotland,22.9
+160,2006-03,Northern Ireland,29.4
+168,2006-06,United Kingdom,23.6
+176,2006-06,England,23.3
+180,2006-06,Wales,26.9
+184,2006-06,Scotland,22.7
+188,2006-06,Northern Ireland,28.6
+196,2006-09,United Kingdom,23.6
+204,2006-09,England,23.3
+208,2006-09,Wales,26.9
+212,2006-09,Scotland,22.8
+216,2006-09,Northern Ireland,29.6
+224,2006-12,United Kingdom,23.4
+232,2006-12,England,23.2
+236,2006-12,Wales,26.9
+240,2006-12,Scotland,22.2
+244,2006-12,Northern Ireland,29.6
+252,2007-03,United Kingdom,23.4
+260,2007-03,England,23.2
+264,2007-03,Wales,26.9
+268,2007-03,Scotland,22.1
+272,2007-03,Northern Ireland,29.1
+280,2007-06,United Kingdom,23.4
+288,2007-06,England,23.2
+292,2007-06,Wales,26.8
+296,2007-06,Scotland,22.1
+300,2007-06,Northern Ireland,29.1
+308,2007-09,United Kingdom,23.5
+316,2007-09,England,23.3
+320,2007-09,Wales,27.0
+324,2007-09,Scotland,22.0
+328,2007-09,Northern Ireland,28.8
+336,2007-12,United Kingdom,23.6
+344,2007-12,England,23.4
+348,2007-12,Wales,26.7
+352,2007-12,Scotland,22.4
+356,2007-12,Northern Ireland,28.5
+364,2008-03,United Kingdom,23.5
+372,2008-03,England,23.2
+376,2008-03,Wales,26.6
+380,2008-03,Scotland,22.4
+384,2008-03,Northern Ireland,28.3
+392,2008-06,United Kingdom,23.5
+400,2008-06,England,23.2
+404,2008-06,Wales,26.5
+408,2008-06,Scotland,22.3
+412,2008-06,Northern Ireland,28.7
+420,2008-09,United Kingdom,23.4
+428,2008-09,England,23.2
+432,2008-09,Wales,26.5
+436,2008-09,Scotland,22.2
+440,2008-09,Northern Ireland,29.0
+448,2008-12,United Kingdom,23.5
+456,2008-12,England,23.2
+460,2008-12,Wales,26.6
+464,2008-12,Scotland,22.6
+468,2008-12,Northern Ireland,29.2
+476,2009-03,United Kingdom,23.4
+484,2009-03,England,23.1
+488,2009-03,Wales,26.5
+492,2009-03,Scotland,22.5
+496,2009-03,Northern Ireland,30.0
+504,2009-06,United Kingdom,23.4
+512,2009-06,England,23.1
+516,2009-06,Wales,26.8
+520,2009-06,Scotland,22.6
+524,2009-06,Northern Ireland,30.6
+532,2009-09,United Kingdom,23.4
+540,2009-09,England,23.1
+544,2009-09,Wales,26.8
+548,2009-09,Scotland,22.5
+552,2009-09,Northern Ireland,30.1
+560,2009-12,United Kingdom,23.5
+568,2009-12,England,23.2
+572,2009-12,Wales,27.1
+576,2009-12,Scotland,22.6
+580,2009-12,Northern Ireland,30.1
+588,2010-03,United Kingdom,23.8
+596,2010-03,England,23.4
+600,2010-03,Wales,27.2
+604,2010-03,Scotland,23.0
+608,2010-03,Northern Ireland,29.9
+616,2010-06,United Kingdom,23.9
+624,2010-06,England,23.5
+628,2010-06,Wales,27.1
+632,2010-06,Scotland,23.1
+636,2010-06,Northern Ireland,29.6
+644,2010-09,United Kingdom,23.9
+652,2010-09,England,23.6
+656,2010-09,Wales,27.1
+660,2010-09,Scotland,23.1
+664,2010-09,Northern Ireland,29.7
+672,2010-12,United Kingdom,24.0
+680,2010-12,England,23.7
+684,2010-12,Wales,27.3
+688,2010-12,Scotland,23.0
+692,2010-12,Northern Ireland,29.1
+700,2011-03,United Kingdom,24.0
+708,2011-03,England,23.8
+712,2011-03,Wales,27.3
+716,2011-03,Scotland,22.9
+720,2011-03,Northern Ireland,28.8
+728,2011-06,United Kingdom,24.0
+736,2011-06,England,23.8
+740,2011-06,Wales,27.2
+744,2011-06,Scotland,23.1
+748,2011-06,Northern Ireland,28.1
+756,2011-09,United Kingdom,24.1
+764,2011-09,England,23.9
+768,2011-09,Wales,27.4
+772,2011-09,Scotland,23.2
+776,2011-09,Northern Ireland,28.0
+784,2011-12,United Kingdom,24.0
+792,2011-12,England,23.7
+796,2011-12,Wales,27.0
+800,2011-12,Scotland,23.1
+804,2011-12,Northern Ireland,27.6
+812,2012-03,United Kingdom,23.8
+820,2012-03,England,23.6
+824,2012-03,Wales,27.0
+828,2012-03,Scotland,23.3
+832,2012-03,Northern Ireland,27.2
+840,2012-06,United Kingdom,23.7
+848,2012-06,England,23.4
+852,2012-06,Wales,26.7
+856,2012-06,Scotland,23.0
+860,2012-06,Northern Ireland,27.4
+868,2012-09,United Kingdom,23.5
+876,2012-09,England,23.2
+880,2012-09,Wales,26.6
+884,2012-09,Scotland,23.1
+888,2012-09,Northern Ireland,27.4
+896,2012-12,United Kingdom,23.4
+904,2012-12,England,23.1
+908,2012-12,Wales,26.4
+912,2012-12,Scotland,23.2
+916,2012-12,Northern Ireland,27.6
+924,2013-03,United Kingdom,23.2
+932,2013-03,England,22.9
+936,2013-03,Wales,26.1
+940,2013-03,Scotland,23.3
+944,2013-03,Northern Ireland,27.6
+952,2013-06,United Kingdom,23.1
+960,2013-06,England,22.7
+964,2013-06,Wales,26.1
+968,2013-06,Scotland,23.4
+972,2013-06,Northern Ireland,27.9
+980,2013-09,United Kingdom,23.0
+988,2013-09,England,22.6
+992,2013-09,Wales,25.5
+996,2013-09,Scotland,23.4
+1000,2013-09,Northern Ireland,27.6
+1008,2013-12,United Kingdom,22.9
+1016,2013-12,England,22.6
+1020,2013-12,Wales,25.0
+1024,2013-12,Scotland,23.1
+1028,2013-12,Northern Ireland,27.5
+1036,2014-03,United Kingdom,22.9
+1044,2014-03,England,22.6
+1048,2014-03,Wales,24.7
+1052,2014-03,Scotland,22.9
+1056,2014-03,Northern Ireland,27.8
+1064,2014-06,United Kingdom,22.9
+1072,2014-06,England,22.6
+1076,2014-06,Wales,25.0
+1080,2014-06,Scotland,22.6
+1084,2014-06,Northern Ireland,27.7
+1092,2014-09,United Kingdom,22.8
+1100,2014-09,England,22.5
+1104,2014-09,Wales,25.2
+1108,2014-09,Scotland,22.6
+1112,2014-09,Northern Ireland,27.1
+1120,2014-12,United Kingdom,22.8
+1128,2014-12,England,22.6
+1132,2014-12,Wales,25.3
+1136,2014-12,Scotland,22.5
+1140,2014-12,Northern Ireland,27.6
+1148,2015-03,United Kingdom,22.7
+1156,2015-03,England,22.4
+1160,2015-03,Wales,25.6
+1164,2015-03,Scotland,22.2
+1168,2015-03,Northern Ireland,26.9
+1176,2015-06,United Kingdom,22.6
+1184,2015-06,England,22.3
+1188,2015-06,Wales,25.2
+1192,2015-06,Scotland,22.5
+1196,2015-06,Northern Ireland,27.3
+1204,2015-09,United Kingdom,22.5
+1212,2015-09,England,22.2
+1216,2015-09,Wales,24.9
+1220,2015-09,Scotland,22.2
+1224,2015-09,Northern Ireland,27.8
+1232,2015-12,United Kingdom,22.4
+1240,2015-12,England,22.1
+1244,2015-12,Wales,25.1
+1248,2015-12,Scotland,22.3
+1252,2015-12,Northern Ireland,27.1
+1260,2016-03,United Kingdom,22.3
+1268,2016-03,England,22.0
+1272,2016-03,Wales,24.7
+1276,2016-03,Scotland,22.7
+1280,2016-03,Northern Ireland,27.2
+1288,2016-06,United Kingdom,22.3
+1296,2016-06,England,21.9
+1300,2016-06,Wales,24.8
+1304,2016-06,Scotland,22.9
+1308,2016-06,Northern Ireland,26.9
+1316,2016-09,United Kingdom,22.3
+1324,2016-09,England,21.9
+1328,2016-09,Wales,25.2
+1332,2016-09,Scotland,23.3
+1336,2016-09,Northern Ireland,26.3
+1344,2016-12,United Kingdom,22.3
+1352,2016-12,England,21.9
+1356,2016-12,Wales,25.2
+1360,2016-12,Scotland,23.3
+1364,2016-12,Northern Ireland,26.0
+1372,2017-03,United Kingdom,22.2
+1380,2017-03,England,21.8
+1384,2017-03,Wales,25.1
+1388,2017-03,Scotland,23.1
+1392,2017-03,Northern Ireland,26.8
+1400,2017-06,United Kingdom,22.1
+1408,2017-06,England,21.8
+1412,2017-06,Wales,24.8
+1416,2017-06,Scotland,23.1
+1420,2017-06,Northern Ireland,26.5
+1428,2017-09,United Kingdom,22.1
+1436,2017-09,England,21.7
+1440,2017-09,Wales,24.3
+1444,2017-09,Scotland,22.8
+1448,2017-09,Northern Ireland,27.1
+1456,2017-12,United Kingdom,21.8
+1464,2017-12,England,21.4
+1468,2017-12,Wales,23.9
+1472,2017-12,Scotland,22.6
+1476,2017-12,Northern Ireland,27.6
+1484,2018-03,United Kingdom,21.8
+1492,2018-03,England,21.4
+1496,2018-03,Wales,23.5
+1500,2018-03,Scotland,22.4
+1504,2018-03,Northern Ireland,27.6
+1512,2018-06,United Kingdom,21.8
+1520,2018-06,England,21.4
+1524,2018-06,Wales,23.7
+1528,2018-06,Scotland,22.3
+1532,2018-06,Northern Ireland,27.8
+1540,2018-09,United Kingdom,21.7
+1548,2018-09,England,21.3
+1552,2018-09,Wales,23.8
+1556,2018-09,Scotland,22.4
+1560,2018-09,Northern Ireland,27.4
+1568,2018-12,United Kingdom,21.7
+1576,2018-12,England,21.3
+1580,2018-12,Wales,23.3
+1584,2018-12,Scotland,22.6
+1588,2018-12,Northern Ireland,27.2
+1596,2019-03,United Kingdom,21.5
+1604,2019-03,England,21.1
+1608,2019-03,Wales,23.3
+1612,2019-03,Scotland,22.2
+1616,2019-03,Northern Ireland,26.7
+1624,2019-06,United Kingdom,21.3
+1632,2019-06,England,20.9
+1636,2019-06,Wales,23.5
+1640,2019-06,Scotland,22.1
+1644,2019-06,Northern Ireland,26.2
+1652,2019-09,United Kingdom,21.3
+1660,2019-09,England,20.9
+1664,2019-09,Wales,23.2
+1668,2019-09,Scotland,22.2
+1672,2019-09,Northern Ireland,26.4
+1680,2019-12,United Kingdom,21.2
+1688,2019-12,England,20.8
+1692,2019-12,Wales,23.6
+1696,2019-12,Scotland,22.5
+1700,2019-12,Northern Ireland,26.2
+1708,2020-03,United Kingdom,21.1
+1716,2020-03,England,20.6
+1720,2020-03,Wales,23.5
+1724,2020-03,Scotland,23.0
+1728,2020-03,Northern Ireland,25.9
+1736,2020-06,United Kingdom,21.1
+1744,2020-06,England,20.6
+1748,2020-06,Wales,23.4
+1752,2020-06,Scotland,23.1
+1756,2020-06,Northern Ireland,26.0
+1764,2020-09,United Kingdom,21.2
+1772,2020-09,England,20.7
+1776,2020-09,Wales,23.9
+1780,2020-09,Scotland,23.3
+1784,2020-09,Northern Ireland,26.8
+1792,2020-12,United Kingdom,21.2
+1800,2020-12,England,20.6
+1804,2020-12,Wales,24.4
+1808,2020-12,Scotland,23.2
+1812,2020-12,Northern Ireland,28.0
+1820,2021-03,United Kingdom,21.5
+1828,2021-03,England,20.8
+1832,2021-03,Wales,24.7
+1836,2021-03,Scotland,23.5
+1840,2021-03,Northern Ireland,28.7
+1848,2021-06,United Kingdom,21.7
+1856,2021-06,England,21.1
+1860,2021-06,Wales,24.5
+1864,2021-06,Scotland,24.1
+1868,2021-06,Northern Ireland,27.7
+1876,2021-09,United Kingdom,21.7
+1884,2021-09,England,21.1
+1888,2021-09,Wales,24.0
+1892,2021-09,Scotland,23.9
+1896,2021-09,Northern Ireland,27.1
+1904,2021-12,United Kingdom,21.7
+1912,2021-12,England,21.2
+1916,2021-12,Wales,23.7
+1920,2021-12,Scotland,23.8
+1924,2021-12,Northern Ireland,27.0
+1932,2022-03,United Kingdom,21.6
+1940,2022-03,England,21.2
+1944,2022-03,Wales,23.5
+1948,2022-03,Scotland,23.5
+1952,2022-03,Northern Ireland,26.5
+1960,2022-06,United Kingdom,21.6
+1968,2022-06,England,21.2
+1972,2022-06,Wales,23.5
+1976,2022-06,Scotland,22.9
+1980,2022-06,Northern Ireland,27.3
+1988,2022-09,United Kingdom,21.8
+1996,2022-09,England,21.3
+2000,2022-09,Wales,24.1
+2004,2022-09,Scotland,22.8
+2008,2022-09,Northern Ireland,27.4
+2016,2022-12,United Kingdom,21.7
+2024,2022-12,England,21.3
+2028,2022-12,Wales,24.4
+2032,2022-12,Scotland,22.9
+2036,2022-12,Northern Ireland,26.3
+2044,2023-03,United Kingdom,21.7
+2052,2023-03,England,21.4
+2056,2023-03,Wales,24.5
+2060,2023-03,Scotland,22.6
+2064,2023-03,Northern Ireland,26.0
