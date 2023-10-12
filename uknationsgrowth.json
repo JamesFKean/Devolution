@@ -1,0 +1,311 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/JamesFKean/Devolution/main/uknationgrowth.csv"
+    },
+    "title": {"text": "UK Nation's Growth Rate",
+        "subtitle": ["Source: ONS"],
+        "subtitleFontSize": 11,
+        "fontSize": 16,
+        "anchor": "start",
+        "color": "#676A86",
+        "font": "Circular Std",
+        "subtitleColor": "#676A86"},
+    "config": {"view": {"stroke": "transparent"}},
+    "width": 500,
+    "height": 300,
+    "transform": [
+      {"calculate": "datum.value/100", "as": "growth"},
+      {"calculate": "datum.value + '%'", "as": "growth2"}
+    ],
+    "layer": [
+      {
+        "transform": [{"filter": "datum['Region name']==='United Kingdom'"}],
+        "mark": {"type": "line"},
+        "encoding": {
+          "x": {
+            "field": "variable",
+            "type": "temporal",
+            "axis": {
+              "title": null,
+              "labelPadding": 5,
+              "labelFontSize": 11,
+              "ticks": false,
+              "grid": false,
+              "labelSeparation": 5,
+              "labelAngle": 0,
+              "labelColor": "#676A86",
+              "labelOpacity": 0.7,
+              "orient": "bottom",
+              "tickColor": "#676A86"
+            }
+          },
+          "y": {
+            "field": "growth",
+            "type": "quantitative",
+            "axis": {
+              "title": null,
+              "labelFontSize": 11,
+              "ticks": false,
+              "gridColor": "#676A86",
+              "gridDash": [1, 5],
+              "gridOpacity": 0.5,
+              "labelColor": "#676A86",
+              "labelOpacity": 0.7,
+              "labelPadding": 5,
+              "tickColor": "#676A86",
+              "tickCount": 8,
+              "tickOpacity": 0.5,
+              "domainColor": "#676A86",
+              "domainOpacity": 0.5,
+              "format": "%"
+            }
+          },
+          "color": {"value": "orange"}
+        }
+      },
+      {
+        "params": [
+          {
+            "name": "Select",
+            "select": {"type": "point", "fields": ["Region name"]},
+            "bind": {
+              "input": "select",
+              "options": ["United Kingdom","England", "Scotland", "Northern Ireland", "Wales"],
+              "name": "Region"
+            },
+            "value": "All"
+          }
+        ],
+        "transform": [{"filter": "datum['Region name']!='United Kingdom'"}],
+        "mark": {"type": "line"},
+        "encoding": {
+          "x": {"field": "variable", "type": "temporal"},
+          "y": {"field": "growth", "type": "quantitative"},
+          "color": {
+            "field": "Region name",
+            "scale": {
+              "scheme": "darkmulti"
+            },
+            "legend": null
+          },
+          "opacity": {
+            "condition": {"param": "Select", "empty": false},
+            "value": 0.05
+          }
+        }
+      },
+      {
+        "layer": [
+          {
+            "params": [
+              {
+                "name": "label",
+                "select": {
+                  "type": "point",
+                  "encodings": ["x"],
+                  "nearest": true,
+                  "on": "mouseover"
+                }
+              }
+            ],
+            "mark": "point",
+            "encoding": {
+              "x": {"field": "variable", "type": "temporal"},
+              "opacity": {
+                "condition": {"param": "label", "empty": false, "value": 0},
+                "value": 0
+              },
+              "tooltip": [{"field": "variable", "type": "temporal", "title": "Year:", "format": "%Y"}]
+            }
+          },
+          {
+            "transform": [{"filter": {"param": "label", "empty": false}}],
+            "layer": [
+              {
+                "mark": {"type": "rule", "color": "gray"},
+                "encoding": {
+                  "x": {
+                    "type": "temporal",
+                    "field": "variable",
+                    "aggregate": "min"
+                  },
+                  "opacity": {"value": 0}
+                }
+              },
+              {
+                "encoding": {
+                  "text": {"type": "nominal", "field": "growth2"},
+                  "x": {"type": "temporal", "field": "variable"},
+                  "y": {"type": "quantitative", "field": "growth"},
+                  "opacity": {
+                    "condition": {"param": "Select", "empty": false},
+                    "value": 1
+                  }
+                },
+                "layer": [
+                  {
+                    "mark": {
+                      "type": "text",
+                      "stroke": "white",
+                      "strokeWidth": 2,
+                      "align": "left",
+                      "dx": -35,
+                      "dy": -5
+                    },
+                    "encoding": {
+                      "color": {
+                        "legend": null,
+                        "type": "nominal",
+                        "field": "Region name",
+                        "scale": {
+              "scheme": "darkmulti"
+            }
+                      },
+                      "opacity": {"value": 0}
+                    }
+                  },
+                  {
+                    "mark": {
+                      "type": "text",
+                      "align": "left",
+                      "dx": -35,
+                      "dy": -5
+                    },
+                    "encoding": {
+                      "color": {
+                        "legend": null,
+                        "type": "nominal",
+                        "field": "Region name",
+                        "scale": {
+              "scheme": "darkmulti"
+            }
+                      },
+                      "opacity": {
+                        "condition": {"param": "Select", "empty": false},
+                        "value": 0
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "mark": {"type": "point"},
+                "encoding": {
+                  "x": {"field": "variable", "type": "temporal"},
+                  "y": {"field": "growth", "type": "quantitative"},
+                  "color": {
+                    "field": "Region name",
+                    "scale": {
+              "scheme": "darkmulti"
+            },
+                    "legend": null
+                  },
+                  "opacity": {
+                    "condition": {"param": "Select", "empty": false},
+                    "value": 0
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "transform": [
+          {"filter": "datum['Region name']==='United Kingdom'"},
+          {"filter": {"param": "label", "empty": false}}
+        ],
+        "layer": [
+          {
+            "mark": {"type": "point"},
+            "encoding": {
+              "x": {"field": "variable", "type": "temporal"},
+              "y": {"field": "growth", "type": "quantitative"},
+              "color": {"value": "orange"},
+              "opacity": {
+                "condition": {"param": "Select", "empty": false},
+                "value": 1
+              }
+            }
+          },
+          {
+                "mark": {"type": "rule", "color": "gray"},
+                "encoding": {
+                  "x": {
+                    "type": "temporal",
+                    "field": "variable",
+                    "aggregate": "min"
+                  },
+                  "opacity": {"value": 0}
+                }
+              },
+              {
+                "encoding": {
+                  "text": {"type": "nominal", "field": "growth2"},
+                  "x": {"type": "temporal", "field": "variable"},
+                  "y": {"type": "quantitative", "field": "growth"},
+                  "opacity": {
+                    "condition": {"param": "Select", "empty": false},
+                    "value": 1
+                  }
+                },
+                "layer": [
+                  {
+                    "mark": {
+                      "type": "text",
+                      "stroke": "white",
+                      "strokeWidth": 2,
+                      "align": "left",
+                      "dx": -35,
+                      "dy": -5
+                    },
+                    "encoding": {
+                      "color": {
+                        "legend": null,
+                        "type": "nominal",
+                        "field": "Region name",
+                        "scale": {
+              "scheme": "darkmulti"
+            }
+                      },
+                      "opacity": {"value": 0}
+                    }
+                  },
+                  {
+                    "mark": {
+                      "type": "text",
+                      "align": "left",
+                      "dx": -35,
+                      "dy": -5
+                    },
+                    "encoding": {
+                      "color": {
+                        "value": "orange"
+                      },
+                      "opacity": {
+                        "condition": {"param": "Select", "empty": false},
+                        "value": 1
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "mark": {"type": "point"},
+                "encoding": {
+                  "x": {"field": "variable", "type": "temporal"},
+                  "y": {"field": "growth", "type": "quantitative"},
+                  "color": {
+                    "value": "orange"
+                  },
+                  "opacity": {
+                    "condition": {"param": "Select", "empty": false},
+                    "value": 0
+                  }
+                }
+              }
+        ]
+      }
+    ]
+  }
